@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "mmcdn.com",
+                "highwebmedia.com",
+                "chaturbate.com"
+            ]
+        },
+        {
+            "port": [
+                8886,
+                993,
+                4444
+            ]
+        }
+    ]
+}

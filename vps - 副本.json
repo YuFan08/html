@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "dujia.us",
+                "dujia.lol", 
+                "plex.direct"
+            ]
+        },
+        {
+            "port": [
+                21,
+                22,
+                2222
+            ]
+        }
+    ]
+}
