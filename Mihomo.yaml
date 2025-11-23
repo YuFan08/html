@@ -1,0 +1,174 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: false
+unified-delay: true
+log-level: warning
+mode: rule
+disable-keep-alive: false
+keep-alive-idle: 10
+keep-alive-interval: 15
+tcp-concurrent: true
+geo-auto-update: true
+geo-update-interval: 168
+external-controller: 127.0.0.1:9090
+external-controller-cors:
+  allow-origins:
+    - "*"
+  allow-private-network: true
+external-ui: ui
+external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  respect-rules: true
+  use-system-hosts: false
+  listen: 127.0.0.1:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.stun.*.*
+    - +.nip.io
+    - +.test.com
+    - +.lan
+    - +.local
+    - msftconnecttest.com
+    - msftncsi.com
+    - time.*.com
+    - time.*.gov
+    - +.ntp.org.cn
+    - +.bilibili.com
+  
+  # 默认 DNS：用于解析国内域名和“代理服务器本身的域名”
+  default-nameserver: 
+    - 223.5.5.5
+    - 119.29.29.29
+  
+  # 主要 DNS：阿里+腾讯 DoH，速度快，防劫持
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    
+  # 代理 DNS：当流量走代理时，强制远程解析（非常重要，防止 DNS 污染）
+  proxy-server-nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+
+  # 策略：明确指定国内域名走阿里/腾讯
+  nameserver-policy:
+    "GEOSITE:CN": 
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    # 国外域名如果不走代理，尝试用 Quad9 (比 Google 直连稍微稳一点，但主要还是靠 fake-ip 远程解析)
+    "GEOSITE:geolocation-!cn":
+      - https://dns.quad9.net/dns-query
+
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  strict-route: true
+  auto-detect-interface: true
+  auto-mtu: true
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080
+        - 8880
+        - 2052
+        - 2082
+        - 2086
+        - 2095
+    TLS:
+      ports:
+        - 443
+        - 8443
+        - 2053
+        - 2083
+        - 2087
+        - 2096
+proxy-providers:
+  Trojan-Pool:
+    type: file
+    path: ./BPB.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+
+  Local-Pool:
+    type: file
+    path: ./LOCAL.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+  - name: "📺 YouTube"
+    type: select
+    use:
+      - Local-Pool
+  - name: "🎉 Plexing"
+    type: select
+    use:
+      - Local-Pool
+  - name: "📽️ Stream"
+    type: select
+    use:
+      - Local-Pool
+  - name: "🎈自动链接"
+    type: select
+    use:
+      - Local-Pool
+  - name: "🚀 节点选择"
+    type: select
+    use:
+      - Local-Pool
+  - name: "🎞️ Japan"
+    type: select
+    use:
+      - Trojan-Pool
+    filter: "\U0001F4A6 22"
+  - name: "🐟 漏网之鱼"
+    type: select
+    use:
+      - Local-Pool
+  - name: "🍁 Cloudflare"
+    type: url-test
+    use:
+      - Trojan-Pool
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 20
+
+rules:
+  - OR,((GEOSITE,google),(GEOSITE,openai),(GEOSITE,xai)),📺 YouTube
+  - DOMAIN-KEYWORD,mmcdn,🎈自动链接
+  #- PROCESS-NAME,PotPlayerMini64.exe,🎈自动链接
+  #- PROCESS-NAME,vlc.exe,🎈自动链接
+  - OR,((GEOSITE,cloudflare),(GEOSITE,microsoft),(GEOSITE,meta)),🚀 节点选择
+  - OR,((DST-PORT,22),(DST-PORT,2222),(DOMAIN-KEYWORD,lol)),DIRECT
+  - DOMAIN-KEYWORD,plex,🎉 Plexing
+  - DOMAIN-KEYWORD,mgstage,🎞️ Japan
+  - GEOIP,lan,DIRECT,no-resolve
+  - GEOSITE,CN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 漏网之鱼
+
+ntp:
+  enable: true
+  server: time.cloudflare.com
+  port: 123
+  interval: 300

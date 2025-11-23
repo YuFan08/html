@@ -1,0 +1,211 @@
+proxies:
+  - {
+        "type": "tuic",
+        "name": "🇺🇸 tu5-MegaBox",
+        "server": "104.224.153.17",
+        "port": 12127,
+        "password": "da2509a3-6aaf-4100-a3cc-fa53f9a9975d",
+        "uuid": "da2509a3-6aaf-4100-a3cc-fa53f9a9975d",
+        "congestion-controller": "bbr",
+        "udp-relay-mode": "native",
+        "alpn": ["h3"],
+        "sni": "www.bing.com",
+        "skip-cert-verify": true,
+        "allowInsecure": "1",
+        "version": 5,
+      }
+  - {
+      "type": "hysteria2",
+      "name": "🇺🇸 hy2-MegaBox",
+      "server": "104.224.153.17",
+      "port": 56508,
+      "password": "da2509a3-6aaf-4100-a3cc-fa53f9a9975d",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "tfo": false,
+    }
+  - {
+      "type": "vless",
+      "name": "🇺🇸 vl-reality-MegaBox",
+      "server": "104.224.153.17",
+      "port": 59374,
+      "uuid": "da2509a3-6aaf-4100-a3cc-fa53f9a9975d",
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "reality-opts":
+        {
+          "public-key": "s8CNTTCpJrvMAZyxBCxI75J1ubmCzWqTy4B1YMkxXDQ",
+          "short-id": "9238e8b7",
+        },
+      "network": "tcp",
+      "encryption": "none",
+      "servername": "apple.com",
+    }
+  - {
+      "type": "tuic",
+      "name": "🇭🇰 tu5-ZhangYida",
+      "server": "89.251.26.122",
+      "port": 33084,
+      "password": "ddf0c933-05e2-4eab-84c1-1bfdbfef4de3",
+      "uuid": "ddf0c933-05e2-4eab-84c1-1bfdbfef4de3",
+      "congestion-controller": "bbr",
+      "udp-relay-mode": "native",
+      "alpn": ["h3"],
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "allowInsecure": "1",
+      "version": 5,
+    }
+  - {
+      "type": "hysteria2",
+      "name": "🇭🇰 hy2-ZhangYida",
+      "server": "89.251.26.122",
+      "port": 41554,
+      "password": "ddf0c933-05e2-4eab-84c1-1bfdbfef4de3",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "tfo": false,
+    }
+  - {
+      "name": "🇭🇰 vm-argo-ZhangYida",
+      "type": "vmess",
+      "server": "104.19.52.161",
+      "port": 8443,
+      "cipher": "auto",
+      "uuid": "ddf0c933-05e2-4eab-84c1-1bfdbfef4de3",
+      "alterId": 0,
+      "tls": true,
+      "network": "ws",
+      "ws-opts":
+        {
+          "path": "/ddf0c933-05e2-4eab-84c1-1bfdbfef4de3-vm",
+          "headers": { "Host": "suidao.chunshi.lol" },
+        },
+      "servername": "suidao.chunshi.lol",
+    }
+  - {
+      "type": "vless",
+      "name": "🇭🇰 vl-reality-ZhangYida",
+      "server": "89.251.26.122",
+      "port": 43288,
+      "uuid": "ddf0c933-05e2-4eab-84c1-1bfdbfef4de3",
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "reality-opts":
+        {
+          "public-key": "ZfvlbBGWmw9zk7rFYmmDaJTDVQ_OqXxRc7tDpj55fQc",
+          "short-id": "fff7df97",
+        },
+      "network": "tcp",
+      "encryption": "none",
+      "servername": "apple.com",
+    }
+  - {
+      "type": "tuic",
+      "name": "🇺🇸 tu5-Alpha",
+      "server": "45.59.100.78",
+      "port": 65258,
+      "password": "f62bbd9f-e01a-43f3-b947-0203ab9fb569",
+      "uuid": "f62bbd9f-e01a-43f3-b947-0203ab9fb569",
+      "congestion-controller": "bbr",
+      "udp-relay-mode": "native",
+      "alpn": ["h3"],
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "allowInsecure": "1",
+      "version": 5,
+    }
+  - {
+      "type": "hysteria2",
+      "name": "🇺🇸 hy2-Alpha",
+      "server": "45.59.100.78",
+      "port": 18649,
+      "password": "f62bbd9f-e01a-43f3-b947-0203ab9fb569",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "tfo": false,
+    }
+  - {
+      "name": "🇺🇸 vm-argo-Alpha",
+      "type": "vmess",
+      "server": "104.19.57.12",
+      "port": 8443,
+      "cipher": "auto",
+      "uuid": "f62bbd9f-e01a-43f3-b947-0203ab9fb569",
+      "alterId": 0,
+      "tls": true,
+      "network": "ws",
+      "ws-opts":
+        {
+          "path": "/f62bbd9f-e01a-43f3-b947-0203ab9fb569-vm",
+          "headers": { "Host": "dallas.chunxi.lol" },
+        },
+      "servername": "dallas.chunxi.lol",
+    }
+  - {
+      "type": "vless",
+      "name": "🇺🇸 vl-reality-Alpha",
+      "server": "45.59.100.78",
+      "port": 38818,
+      "uuid": "f62bbd9f-e01a-43f3-b947-0203ab9fb569",
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "reality-opts":
+        {
+          "public-key": "xv9I38d39mBnrJneCF343SStfRWCUCKd0Rt8zw8AT1o",
+          "short-id": "71216933",
+        },
+      "network": "tcp",
+      "encryption": "none",
+      "servername": "apple.com",
+    }
+  - {
+      "type": "tuic",
+      "name": "🇭🇰 tu5-GreenCloudHK",
+      "server": "96.9.229.232",
+      "port": 57387,
+      "password": "fc5daa4b-9655-4234-9859-f5cfc6635481",
+      "uuid": "fc5daa4b-9655-4234-9859-f5cfc6635481",
+      "congestion-controller": "bbr",
+      "udp-relay-mode": "native",
+      "alpn": ["h3"],
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "allowInsecure": "1",
+      "version": 5,
+    }
+  - {
+      "type": "hysteria2",
+      "name": "🇭🇰 hy2-GreenCloudHK",
+      "server": "96.9.229.232",
+      "port": 44262,
+      "password": "fc5daa4b-9655-4234-9859-f5cfc6635481",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "tfo": false,
+    }
+  - {
+      "type": "vless",
+      "name": "🇭🇰 vl-reality-GreenCloudHK",
+      "server": "96.9.229.232",
+      "port": 13167,
+      "uuid": "fc5daa4b-9655-4234-9859-f5cfc6635481",
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "reality-opts":
+        {
+          "public-key": "KJ8O-4Lw_sSm0fUXtPRoqHlPGNmK0Hhew50EqvCNezw",
+          "short-id": "1a82827d",
+        },
+      "network": "tcp",
+      "encryption": "none",
+      "servername": "apple.com",
+    }

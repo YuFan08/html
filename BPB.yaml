@@ -1,0 +1,1324 @@
+proxies:
+  - name: "\U0001F4A6 1 - Trojan - Domain : 2053"
+    type: trojan
+    server: bpb.chunxi.lol
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.ChuNXI.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUTEzano2aVozdmdFcCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 2 - Trojan - Domain : 2053"
+    type: trojan
+    server: www.speedtest.net
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BpB.ChunXI.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibWQ4N1NGcEZEdUl4ZCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 3 - Trojan - IPv4 : 2053"
+    type: trojan
+    server: 104.21.69.22
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: Bpb.chUNxI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaDRpT1FvdHhJdkoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 4 - Trojan - IPv4 : 2053"
+    type: trojan
+    server: 172.67.202.213
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.chunxi.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibndmTFg0cjJHbjZUb2ExIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 5 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.194
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.cHuNXi.loL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaVNjaTQ1WWFWNEFFME5LZCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 6 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.57.174
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.CHUNxi.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicTVaWUNVbGg2ZzdSWUIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 7 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.189
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.ChUNXi.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibUltQW90dE1aSURQIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 8 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.174
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHunXi.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZDVnYk5HQWhXSyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 9 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.211
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.CHUnXi.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQUgyS2Z4MmdCMGliOFoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 10 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.117.180
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: Bpb.ChunXi.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoib0lOUmhZbkZ5UlRDYmw2RSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 11 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.155.66
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.chUNxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiN3RTYkhrUjciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 12 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.199
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.ChUnxi.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYnBSMGJ1OGNlZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 13 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.180.66
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.cHuNXI.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUTJuZ2FsQWs1bUR5bW8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 14 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.186
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.chuNXI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWG11SDl5VjA4Z2tldCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 15 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.203
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.chunxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMldpcklUWkkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 16 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.208
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHUNxi.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidm44SHlxZnFaOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 17 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.212
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.chuNXi.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiTEN5aE5OSEhEOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 18 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.195
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: Bpb.cHunxI.lOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ1JQVTZabGNXdXMwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 19 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.121.60
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.ChUnXi.loL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWnN0MkhaQ0dTS1FlTEo3WCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 20 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.177
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.ChUnxI.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia1Flb0ZWWklsblRMNG1FQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 21 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.190
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.CHUnxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiek1uSWdCR20iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 22 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 162.159.135.213
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.cHUnxI.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSzhxODJETEoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 23 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.193
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.ChUNXI.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMnZ5U00wa0pndWlyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 24 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.184
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: Bpb.CHUnxi.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidnhwRXdQNDZNNSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 25 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.181
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.cHUNXI.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV1N3RjlpQjEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 26 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.156.162
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHUNXI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibUFWekdPNDdJTUl5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 27 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.118.174
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.chuNXi.loL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOUFCMWNwcXlMZ0h4czMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 28 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.209
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.CHuNxi.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoieTQ5R3ZWbXJiaFNjREtMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 29 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.210
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.cHunxi.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQlJ6Y0d6aDJFS0kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 30 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.172
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.cHUNxI.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiVHRzUDVCREhZWiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 31 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.205
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BpB.ChUnxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiN3JLRkNQeWRNYjZjWXpQIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 32 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.152.228
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.ChUnxI.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicEpsNTRBTDhHIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 33 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.179
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.chUnxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWENMaTA4aEd3a2N6UFEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 34 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.52.161
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.cHUnxI.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYlJjSFhFcGIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 35 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.200
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.chuNXi.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiWWpBczBJUG5uUyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 36 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.173
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.chUnxi.lOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMWszb1lhY0N5WGNNIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 37 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.116.228
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.CHUNXi.lOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYnd4cmQ4SkhHODUyTVZPMiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 38 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.25.254.3
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.chuNXi.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiakRFSW5HZGRYdnJ5anhqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 39 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.192
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.CHuNxI.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicVdXcXpKZ1UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 40 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.197
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.chunXI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiQ2JnVTRwUmRyM0lkRG4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 41 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.216.242
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.chUnxi.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiaFVrVnlzeWd3Y05PIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 42 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.182
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BpB.ChUnXI.LOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiN1lkYVplV2kyVkJPdXYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 43 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.153.173
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.chuNxI.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYU5FeHdNVm9zalkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 44 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.162.101
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.chunXI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZGY2NU9ZajY0QzRWciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 45 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.198
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.chunxi.LoL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZ2tuc3FVNW81c0tNVGUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 46 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.175
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHunxi.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUWY4WXZhTW1Na0xscUkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 47 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.206
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.chuNXi.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZzlERmNtUWpBIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 48 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.115.234
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.chUnXI.lOl
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiUWdFY3k2UUtFIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 49 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.216.232
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPb.cHUnXI.loL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiM24xMUpoUXlFZ3lUdUwwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 50 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.26.76
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.chUNxi.loL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiV0FsQ3l4UlFZbXNpbU0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 51 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.171
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BpB.CHunXi.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMHhHT25mYmNHd2RKIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 52 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.57.12
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpB.ChUnxi.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY05hSEN2V3V4YW00bCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 53 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.201
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.chuNxi.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiekdUYUxWM3kydmVRdGNRTyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 54 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.16.152.92
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.ChunXI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoib3lGdGxxbU52cW0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 55 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 172.64.229.174
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHunXi.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiR3VQU1oxSE5rUmhkSHlWIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 56 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 198.41.209.186
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.cHUnxi.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiSHhkN056QThHcGd5ckVxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 57 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.114.12
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPB.ChUNXI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiZmlDa1RYRzZQVCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 58 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.17.60.181
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bPB.ChUNxi.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoia3RRUWZWOXJpR0Izb3EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 59 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.185
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.CHUNxI.LOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYlNtdDdiM3ZmaUoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 60 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.183
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: bpb.CHUnxI.Lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRWpLUVk2R3pFb1lsWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 61 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.202
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.chUnxI.lol
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiak0wenZYb1YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 62 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.18.89.190
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: BPb.cHunXi.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiRVVBRXVHOVkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19"
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
+  - name: "\U0001F4A6 63 - Trojan - Clean IP : 2053"
+    type: trojan
+    server: 104.19.154.187
+    port: 2053
+    ip-version: ipv4
+    tfo: false
+    udp: false
+    password: "#!xWE2dylN;P@!k4"
+    tls: true
+    sni: Bpb.chUNxI.lOL
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiOFNiZDRvSHhqS1IwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ=="
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: bpb.chunxi.lol
