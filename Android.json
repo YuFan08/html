@@ -674,7 +674,7 @@
       {
         "tag": "Telegram",
         "type": "remote",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/telegram.srs",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/telegram.srs",
         "format": "binary",
         "download_detour": "📺 YouTube"
       },
