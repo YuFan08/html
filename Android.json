@@ -661,7 +661,7 @@
       {
         "tag": "Facebook",
         "type": "remote",
-        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/facebook.srs",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/facebook.srs",
         "format": "binary",
         "download_detour": "📺 YouTube"
       },
