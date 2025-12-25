@@ -606,6 +606,7 @@
           "Microsoft",
           "GeoLocation-!CN",
           "Meta",
+          "Facebook",
           "Reddit",
           "Telegram",
           "Tiktok",
@@ -654,6 +655,13 @@
         "tag": "Meta",
         "type": "remote",
         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/meta.srs",
+        "format": "binary",
+        "download_detour": "📺 YouTube"
+      },
+      {
+        "tag": "Facebook",
+        "type": "remote",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/facebook.srs",
         "format": "binary",
         "download_detour": "📺 YouTube"
       },
